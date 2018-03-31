@@ -6,7 +6,10 @@
   "dependencies": {
     "botbuilder": "^3.13.1",
     "botbuilder-azure": "^3.0.4",
-    "restify": "^5.0.0"
+    "restify": "^5.0.0",
+    "botauth": "0.2.12",
+    "passport-azure-ad": "3.0.12",
+    "express-session": "1.15.6"
   },
   "devDependencies": {
     "request": "^2.81.0",
