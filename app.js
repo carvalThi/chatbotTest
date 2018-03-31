@@ -95,7 +95,7 @@ bot.recognizer(recognizer)
 bot.dialog("salut", [
   function(session, args){
     //console.log(session)
-    session.send("Coucou toi !new master code")
+    session.send("Coucou toi ! je suis sur la branche test ! ouhouuu !")
   }
 ]).triggerAction({ matches: 'salut' });
 
