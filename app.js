@@ -96,6 +96,7 @@ bot.dialog("salut", [
   function(session, args){
     //console.log(session)
     session.send("Coucou toi !new master code 2")
+    session.send("éh je veux rajouter un truc de test !")
   }
 ]).triggerAction({ matches: 'salut' });
 
