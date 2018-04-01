@@ -98,6 +98,7 @@ bot.dialog("salut", [
     session.send("Coucou toi !new master code 4")
     session.send("éh je veux rajouter un truc de test !")
     session.send("je rajoute un nouveau truc de test !")
+    session.send("encore une branche de test, 2 !!")
   }
 ]).triggerAction({ matches: 'salut' });
 
