@@ -95,7 +95,7 @@ bot.recognizer(recognizer)
 bot.dialog("salut", [
   function(session, args){
     //console.log(session)
-    session.send("Coucou toi !new master code 3")
+    session.send("Coucou toi !new master code 4")
     session.send("éh je veux rajouter un truc de test !")
     session.send("je rajoute un nouveau truc de test !")
   }
